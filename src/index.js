@@ -15,6 +15,7 @@ router.get("/number", (req, res) =>
 );
 
 // I.e.: http(s)://<subdomain>.codesandbox.io/api/numbers
+
 router.get("/numbers", function (req, res) {
   let array = [];
   for (let i = 1; i <= 50; i++) {
