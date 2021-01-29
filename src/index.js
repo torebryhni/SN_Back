@@ -23,5 +23,12 @@ router.get("/numbers", function (req, res) {
   res.json(array);
 });
 
+router.get("/fizz", function (req, res) {
+  let array = [];
+  array.push(10);
+  array.push(20);
+  res.json(array);
+});
+
 app.use("/api", router);
 server.listen(8080);
